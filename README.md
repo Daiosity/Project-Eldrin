@@ -18,8 +18,8 @@ Community theories and suggestions are welcome, but the author remains the only 
 
 ## License
 
-Unless otherwise noted, this repository is licensed under `CC BY 4.0`.
-Please provide attribution if you share or adapt material from this public repo.
+This repository is shared publicly for reading and community discussion, but the
+contents remain `All Rights Reserved` unless otherwise noted.
 
 ## Community Labels
 

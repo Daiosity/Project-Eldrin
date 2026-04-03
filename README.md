@@ -16,6 +16,11 @@ This repo is for released material only. It contains curated chapters, spoiler-s
 
 Community theories and suggestions are welcome, but the author remains the only source of canon.
 
+## License
+
+Unless otherwise noted, this repository is licensed under `CC BY 4.0`.
+Please provide attribution if you share or adapt material from this public repo.
+
 ## Community Labels
 
 - `theory`

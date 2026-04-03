@@ -1,0 +1,29 @@
+name: Fan Idea
+description: Share a creature, location, faction, or story concept inspired by the world
+title: "[Fan Idea]: "
+labels:
+  - fan-idea
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Idea type
+      options:
+        - Creature concept
+        - Character concept
+        - Settlement or location
+        - Technology or relic
+        - Story event
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      placeholder: A scavenger settlement built inside a collapsed transit ring...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Fan ideas are inspiration only unless the author explicitly adopts them into canon."

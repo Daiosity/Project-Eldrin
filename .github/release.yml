@@ -1,0 +1,20 @@
+changelog:
+  categories:
+    - title: Chapters
+      labels:
+        - chapter
+    - title: Lore
+      labels:
+        - lore
+    - title: Bestiary
+      labels:
+        - bestiary
+    - title: Characters
+      labels:
+        - character
+    - title: Community
+      labels:
+        - community
+    - title: Other
+      labels:
+        - "*"

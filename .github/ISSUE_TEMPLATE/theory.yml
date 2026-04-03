@@ -1,0 +1,22 @@
+name: Theory
+description: Share a story theory or interpretation
+title: "[Theory]: "
+labels:
+  - theory
+body:
+  - type: textarea
+    id: theory
+    attributes:
+      label: Your theory
+      description: What do you think is happening in Project Eldrin?
+      placeholder: I think the Scraplings only coordinated because...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What points led you here?
+      description: Cite released chapters, bestiary entries, or lore notes.
+  - type: markdown
+    attributes:
+      value: "Canon decisions remain with the author. Community theories help shape discussion, not official story truth."

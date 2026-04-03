@@ -1,0 +1,18 @@
+name: Non-Canon Idea
+description: Share alternate takes, what-ifs, and off-canon concepts
+title: "[Non-Canon]: "
+labels:
+  - non-canon
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: Non-canon concept
+      placeholder: What if Kaeden had never left the academy...
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Notes
+      description: Anything else you want to add about the idea.

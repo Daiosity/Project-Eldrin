@@ -1,0 +1,30 @@
+name: Suggestion
+description: Suggest an improvement for the public repo or community experience
+title: "[Suggestion]: "
+labels:
+  - suggestion
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Public lore files
+        - Character profiles
+        - Bestiary entries
+        - Release presentation
+        - Repository organization
+        - Community process
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggestion
+      placeholder: It would help if release notes also included...
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this would help

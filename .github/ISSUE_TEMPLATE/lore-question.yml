@@ -1,0 +1,18 @@
+name: Lore Question
+description: Ask a question about released worldbuilding
+title: "[Lore Question]: "
+labels:
+  - lore-question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: Is Eldrin always tied to corruption, or can it do more?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Mention the release, chapter, or file that prompted the question.
